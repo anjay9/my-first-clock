@@ -1,0 +1,47 @@
+body{
+  min-height:400px;
+  height:auto !important;
+}
+.background{
+  top:0;
+  left:0;
+  position:absolute;
+  z-index:-100;
+  width:100%;
+  height:100%;
+  background:radial-gradient(100% 110% at 50% 40%, #190252 0%, #3903C1 70%);
+}
+.container{
+  border-radius:12px;
+  width:575px;
+  background-color:#511FD4;
+  margin:auto;
+  margin-top:12%;
+  text-align:center;
+}
+.topSection{
+  border-top-left-radius:12px;
+  border-top-right-radius:12px;
+  color:white;
+  font-size:50px;
+  background-color:#3903C1;
+}
+.botSection{
+   padding:10px;
+}
+#clockButton{
+  font-size:20px;
+  outline:none;
+  cursor:pointer;
+  border-radius:12px;
+  border:none;
+  background-color:#3903C1;
+  color:white;
+  padding:10px 30px;
+  text-decoration:none;
+}
+@media only screen and (max-width:575px){
+  .container{
+    width:100%;
+  }
+}
